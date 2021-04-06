@@ -1,0 +1,19 @@
+CREATE TABLE person (
+    id UUID NOT NULL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    costPerDay FLOAT
+);
+
+CREATE TABLE place (
+    id UUID NOT NULL PRIMARY KEY,
+    country VARCHAR(100) NOT NULL,
+    region VARCHAR(100) NOT NULL,
+    city VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE valability (
+    id UUID NOT NULL PRIMARY KEY,
+    sport VARCHAR(100) NOT NULL,
+    period VARCHAR(100) NOT NULL,
+    costSport FLOAT
+);
